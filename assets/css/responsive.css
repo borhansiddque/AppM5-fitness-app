@@ -26,10 +26,18 @@
     .fashion-container {
         flex-direction: column;
     }
+
+    .shop-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 576px) {
     nav {
         padding: 30px 35px;
+    }
+
+    .shop-container {
+        grid-template-columns: 1fr;
     }
 }
