@@ -15,3 +15,68 @@ li {
 a {
     text-decoration: none;
 }
+
+.menubar {
+    font-size: 2rem;
+    color: #0057fc;
+    cursor: pointer;
+    display: none;
+}
+
+/* Navbar Style */
+
+nav {
+    background-color: #fff;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.logo i {
+    font-size: 1.5rem;
+    color: #0057fc;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu li a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #111;
+}
+
+.menu li a:hover {
+    border-bottom: 2px solid #0057fc;
+}
+
+.nav-btn {
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #0057fc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.nav-btn:hover {
+    background-color: #0039a5;
+    transition: all .5s;
+}

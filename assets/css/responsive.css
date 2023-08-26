@@ -1,0 +1,23 @@
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .menubar {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav {
+        padding: 30px 35px;
+    }
+}
