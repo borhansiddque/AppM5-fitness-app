@@ -16,6 +16,11 @@ a {
     text-decoration: none;
 }
 
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
 .menubar {
     font-size: 2rem;
     color: #0057fc;
@@ -79,4 +84,59 @@ nav {
 .nav-btn:hover {
     background-color: #0039a5;
     transition: all .5s;
+}
+
+/* Header Section Style */
+
+header {
+    background-color: #1a1a1a;
+    height: 480px;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.header-info {
+    width: 50%;
+    padding-top: 140px;
+    padding-left: 50px;
+}
+
+.header-info-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header-btn {
+    border: 1px solid #fff;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 12px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.header-btn:hover {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #0057fc;
+    transition: all .5s;
+}
+
+.header-img {
+    width: 50%;
+    height: 100%;
+}
+
+.header-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
