@@ -347,5 +347,46 @@ header {
     color: #111;
 }
 
+/* Our Instagram Post Section Style */
+
+.insta-post {
+    padding-bottom: 80px;
+}
+
+.insta-post-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+}
+
+.insta-post-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 40px;
+}
+
+.insta-post-container img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.insta-post-container img:hover {
+    opacity: .7;
+}
+
+/* Footer Section Style */
+
+footer {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+footer p {
+    color: #111;
+}
+
+
 
 

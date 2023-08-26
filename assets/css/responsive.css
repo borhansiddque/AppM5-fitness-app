@@ -47,6 +47,15 @@
     .latest-news-container {
         grid-template-columns: 1fr;
     }
+
+    .insta-post-title {
+        font-size: 3rem;
+    }
+
+    .insta-post-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
 
 @media screen and (max-width: 576px) {
@@ -61,5 +70,13 @@
     .accessories-video,
     .accessories-info {
         width: 100%;
+    }
+
+    .insta-post-title {
+        font-size: 2.3rem;
+    }
+
+    .insta-post-container {
+        grid-template-columns: 1fr;
     }
 }
