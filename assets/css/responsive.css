@@ -9,6 +9,10 @@
         text-align: center;
         padding-left: 0px;
     }
+
+    .latest-news-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -38,6 +42,10 @@
 
     .shop-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .latest-news-container {
+        grid-template-columns: 1fr;
     }
 }
 
