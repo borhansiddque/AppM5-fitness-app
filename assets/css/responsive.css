@@ -1,5 +1,14 @@
 @media screen and (max-width: 992px) {
-    
+    .accessories-container {
+        flex-direction: column;
+    }
+
+    .accessories-video,
+    .accessories-info {
+        width: 80%;
+        text-align: center;
+        padding-left: 0px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -39,5 +48,10 @@
 
     .shop-container {
         grid-template-columns: 1fr;
+    }
+
+    .accessories-video,
+    .accessories-info {
+        width: 100%;
     }
 }
