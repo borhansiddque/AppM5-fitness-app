@@ -140,3 +140,55 @@ header {
     height: 100%;
     object-fit: cover;
 }
+
+/* Fashion Section Style */
+
+.fashion-section {
+    padding: 100px 0px;
+}
+
+.fashion-section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+}
+
+.fashion-section-sub-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.fashion-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.women-fashion,
+.man-fashion {
+    text-align: center;
+}
+
+.women-fashion h3 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #0057fc;
+    font-weight: 400;
+}
+
+.man-fashion h3 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #111;
+    font-weight: 600;
+}
+
+.man-img img,
+.women-img img {
+    width: 100%;
+}

@@ -22,6 +22,10 @@
     .header-img {
         width: 100%;
     }
+
+    .fashion-container {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 576px) {
